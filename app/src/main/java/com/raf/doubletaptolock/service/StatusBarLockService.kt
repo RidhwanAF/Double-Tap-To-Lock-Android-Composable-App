@@ -52,6 +52,7 @@ class StatusBarLockService : AccessibilityService(), LifecycleOwner, SavedStateR
         SharedPreferences.OnSharedPreferenceChangeListener { _, key ->
             if (key == KEY_LANDSCAPE || key == KEY_TOUCH_AREA || key == KEY_HEIGHT) {
                 updateOverlayGeometry()
+                flashTriggerFlow.value += 1
             }
         }
 
@@ -205,7 +206,6 @@ class StatusBarLockService : AccessibilityService(), LifecycleOwner, SavedStateR
         }
 
         windowManager.updateViewLayout(composeView, layoutParams)
-        flashTriggerFlow.value += 1
     }
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {}

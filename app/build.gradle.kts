@@ -15,8 +15,8 @@ android {
         applicationId = "com.raf.doubletaptolock"
         minSdk = 30
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0.03182026-alpha"
+        versionCode = 2
+        versionName = "1.0.0.03182026-release"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
