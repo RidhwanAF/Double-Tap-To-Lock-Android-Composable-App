@@ -1,4 +1,4 @@
-# Status Bar Lock
+# Double Tap to Lock "Status Bar Lock"
 
 A hyper-specific Android micro-utility built to replicate the "double-tap status bar to sleep" feature missing from stock Google Pixel devices.
 
