@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Double Tap To Lock</string>
+    <string name="accessibility_description">Enable double tap on Status Bar to lock the screen</string>
+    <string name="service_is_active">Service is Active.</string>
+    <string name="service_is_active_desc">You can now double tap the status bar.</string>
+    <string name="accessibility_service_required">Accessibility Service Required</string>
+    <string name="accessibility_service_required_desc">To overlay the status bar and lock the screen, you must enable the service in settings.</string>
+    <string name="open_accessibility_settings">Open Accessibility Settings</string>
+    <string name="enable_in_landscape">Enable in Landscape</string>
+    <string name="touch_area">Touch Area</string>
+    <string name="settings">Settings</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="touch_height">Touch Height</string>
+    <string name="decrease_height">Decrease Height</string>
+    <string name="increase_height">Increase Height</string>
+    <string name="reset_height">Reset Height</string>
+    <string name="default_height">Default</string>
+</resources>
